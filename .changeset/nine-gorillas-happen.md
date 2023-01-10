@@ -1,5 +1,5 @@
 ---
-"workers-tracing": patch
+"8q": patch
 ---
 
 Added a span builder, this will allow for a more friendly experience.
