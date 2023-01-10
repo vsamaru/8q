@@ -9,7 +9,7 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
-    if: ${{ github.repository_owner == 'BlobDevelopment' }}
+    if: ${{ github.repository_owner == 'vsamaru' }}
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
