@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"target": "es2016",
+		"module": "commonjs",
+		"declaration": true,
+		"emitDeclarationOnly": true,
+		"outDir": "dist",
+		"lib": ["ES2020"],
+		"types": ["@cloudflare/workers-types"],
+		"baseUrl": "src",
+		"paths": {
+			"src/*": ["*"]
+		}
+	},
+	"include": ["src/**/*"]
+}

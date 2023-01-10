@@ -1,0 +1,9 @@
+**/node_modules
+/testing/
+/tmp/
+/.mf/
+/dist/
+
+workers-tracing.todo
+**/.DS_Store
+kill-stuck-ports.sh
